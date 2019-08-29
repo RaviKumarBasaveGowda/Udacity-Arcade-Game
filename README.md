@@ -8,9 +8,9 @@
 
 ## Instructions
 
-The game can be played using the arrow keys(up, down, right, bottom).
-The game is won when you make the player reaches to the water while avoiding the bugs.
-The game resets when the player clashes with the bugs and the player goes back to the starting position.
+The game can be played using the arrow keys(up, down, right, bottom).<br/>
+The game is won when you make the player reaches to the water while avoiding the bugs.<br/>
+The game resets when the player clashes with the bugs and the player goes back to the starting position.<br/>
 
 ## Contributing
 
