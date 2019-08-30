@@ -16,10 +16,10 @@ Enemy.prototype.update = function(dt) {
      this.speed = 100 + Math.floor(Math.random() * 222);
     };
     // Checks for collisions between the player and the enemies
-    if (player.x < this.x + 80 &&
-        player.x + 80 > this.x &&
-        player.y < this.y + 60 &&
-        60 + player.y > this.y) {
+    if (player.x < this.x + 50 &&
+        player.x + 50 > this.x &&
+        player.y < this.y + 70 &&
+        70 + player.y > this.y) {
         player.x = 202; //Move the player to the start postion
         player.y = 405;
     };
@@ -62,7 +62,7 @@ handleInput(keyPress) {
        this.x += 30; //Move down 30 postion
    }
    // The user has won
-  if (this.y < 0) {
+  if (this.y <0) {
     alert('you won');
       setTimeout(() => {
           this.x = 202;
